@@ -1,0 +1,5 @@
+#!/bin/bash
+
+python servermon/manage.py syncdb
+python servermon/manage.py migrate
+python servermon/manage.py loaddata vendor-model sampledata

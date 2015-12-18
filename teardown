@@ -1,0 +1,3 @@
+#!/bin/bash
+
+python servermon/manage.py flush --noinput

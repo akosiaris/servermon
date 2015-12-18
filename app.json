@@ -1,0 +1,16 @@
+{
+  "name": "servermon",
+  "description": "playing with heroku",
+  "scripts": {
+    "postdeploy": "setup",
+    "pr-predestroy": "teardown"
+  },
+  "env": {
+    "SECRET_KEY": {
+      "required": true
+    }
+  },
+  "addons": [
+    "heroku-postgresql"
+  ]
+}
