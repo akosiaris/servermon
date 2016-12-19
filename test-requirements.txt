@@ -1,6 +1,7 @@
 whoosh
 ipy
-python-ldap
+python-ldap; python_version < '3.0'
+ldap3; python_version >= '3.0'
 flake8==3.0.4
 epydoc
 sphinx
